@@ -1300,40 +1300,8 @@
         const btnPlay = document.getElementById('btnPlay');
         const btnEnter = document.getElementById('btnEnter');
 
-        if (btnPlay) {
-            btnPlay.addEventListener('click', (e) => {
-                e.preventDefault();
-                // Efeito visual de "inserir moeda"
-                btnPlay.style.animation = 'none';
-                setTimeout(() => {
-                    btnPlay.style.animation = '';
-                }, 10);
-                
-                alert('🎮 [ GAME START ]\n\n' +
-                      '>>> Lords of Logic está em desenvolvimento!\n' +
-                      '>>> Em breve você poderá testar seu conhecimento\n' +
-                      '>>> e se tornar um verdadeiro Lord da Lógica.\n\n' +
-                      '[ PRESS START TO CONTINUE ]');
-            });
-        }
+       
 
-        if (btnEnter) {
-            btnEnter.addEventListener('click', (e) => {
-                e.preventDefault();
-                // Efeito visual de "inserir moeda"
-                btnEnter.style.animation = 'none';
-                setTimeout(() => {
-                    btnEnter.style.animation = '';
-                }, 10);
-                
-                alert('🎮 [ PLAYER READY ]\n\n' +
-                      '>>> Lords of Logic está em desenvolvimento!\n' +
-                      '>>> LEVEL: COMING SOON\n' +
-                      '>>> SCORE: ???\n' +
-                      '>>> STATUS: LOADING...\n\n' +
-                      '[ INSERT COIN TO PLAY ]');
-            });
-        }
 
         // ====================================
         // EFEITO DE PARALAXE SUTIL NO HERO
